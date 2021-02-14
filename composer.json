@@ -1,0 +1,21 @@
+{
+  "name": "angujo/xmldom",
+  "description": "Library to assist quickly create xml files/contents",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Barrack Angujo",
+      "email": "angujomondi@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Angujo\\XmlDom\\": "src/"
+    }
+  }
+}
